@@ -6,6 +6,7 @@
 #### 4.Html
 #### 5.CSS
 #### 6.Flask
+#### 7.SAP Conversational ai
 
 ### This is a web based application used to predict diseases based on symptoms.
 ![2022-07-16](https://user-images.githubusercontent.com/90715746/179350427-8206bce5-dcb2-41f3-9243-91e77705f4e4.png)
