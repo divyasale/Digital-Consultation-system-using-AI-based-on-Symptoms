@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="{{url_for('static',filename='img/healthcare.png')}}" />
+        <title>HEALTH FIRST </title>
+        <!-- Custom CSS -->
+        <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-btn">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html"><strong>>> HEALTH FIRST</strong></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li><a href="centers.html"><span class="glyphicon glyphicon-plus"></span> Healthcare centers & NGOs</a></li>
+                        <li><a href="help.html"><span class="glyphicon glyphicon-earphone"></span> Helplines</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="content">
+            <!--Main banner image-->
+            <div id = "banner_image">
+                <div class="container">	
+                    <center>
+                        <div id="banner_content">
+                            <h1 style="font: bolder xx-large 'Courier Next'">"The GREATEST WEALTH is HEALTH"</h1>
+                            <p style="font: bolder x-large 'Courier Next'">So here we are - Your personal digital consultor! </p>
+                            <br/>
+                            <a  href="checkup.html" class="btn btn-lg active" style="font: xx-large red  ; background-color: #f9f2f4">Go for checkup</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!--Main banner image end-->
+        </div>
+    </body> 
+</html>

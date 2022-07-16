@@ -1,0 +1,208 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+body,
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h4{font-family: 'Courier New';font-weight: 700;}
+
+.content{
+    min-height: 600px;
+    overflow:hidden;
+    position: relative;
+}
+.bg{
+    opacity:0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#banner_image {
+    
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bkg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_img{
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+#banner_cnt {
+    position: relative;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    background-color: rgba(0, 0, 0, 0.568);
+    max-width: 1500px;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+    margin-top: -85px; 
+    height: 85px; 
+    visibility: hidden;
+}
+
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
+
+.parent{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    position: relative;
+    
+    background:transparent;
+    padding:20px;
+    width:fit-content;
+    margin: 0 auto;
+   
+    align-items: center;
+    border-radius: 25px;
+    height:fit-content;
+    
+  }
+
+  .parent button{
+    font-size: 50px;
+    outline: none;
+    border:none;
+    background-color: transparent;
+    color:rgb(255, 142, 142);
+    height:50px;
+    cursor:pointer;
+    width: 250px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .parent button:hover{
+    
+    color:rgb(241, 3, 3);
+    padding-top: 25px;
+  
+  }
+  
+  
+  
+  select{
+    padding-left: 10px;
+    border-radius: 20px;
+    border:none;
+    height:25px;
+    color:#EC6F66;
+    background: rgb(255, 142, 142);
+    -webkit-appearance: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    overflow: hidden;
+    outline:none;
+  }
+  
+  select:hover{
+    
+    border: none;
+    background-color: transparent;
+    color:#fff;
+    padding-left:20px;
+    
+  }
+  
+  select option{
+    overflow: hidden;
+    background-color: rgb(255, 142, 142);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+  }
+
+  .border1 {
+    background-color: #0b95dc;
+    height: 2px;
+    width: 35%;
+    float: left;
+}
+
+.border2 {
+    background-color: #e2472c;
+    height: 2px;
+    width: 65%;
+    float: left;
+}
+  
