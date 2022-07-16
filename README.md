@@ -17,7 +17,7 @@
 ![2022-07-16 (2)](https://user-images.githubusercontent.com/90715746/179350522-e4915371-aaf6-446a-989b-2774a0abaa00.png)
 
 ### Then Our Machine Learning Model predict the Disease.We also provide a Chatbot on our website. 
-### After predicting disease use should chat with our chatbot, where our chatbot will give him idea(including Precautions) about his disease.
+### After predicting disease use should chat with our chatbot, where our chatbot will give him Consultation.This is Digital Consultation Means idea(including precautions) about his desease.
 ![2022-07-16 (3)](https://user-images.githubusercontent.com/90715746/179350640-0efc182f-359d-4407-a147-9f978f489a0a.png)
 
 ### After that Chatbot will directs the user towards next step.
